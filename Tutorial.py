@@ -33,3 +33,13 @@ df['nilai'].mean() #implementation
 # syntax : df['column_name'].sum()
 df['nilai'].sum() #implementation
  
+# Data Findings :
+# Use this functions to find the data you want
+
+# 1. Find string(categoric) data
+# syntax : df[df['column_name'] == 'data'] 
+df[df['gender'] == 'male'] #implementation
+
+# 2. Find numeric data
+# syntax : df[df['column_name'] == 0]  
+df[df['nilai'] == 97] #implementation
